@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 0px;
+}
+
+header{
+    height: 180px;
+    background-color: #c20067;
+}
+
+nav{
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -40px;
+}
+
+.general{
+    height: 80px;
+    background-color: #eb75e3;
+}
+
+section{
+    margin: 20px 0;
+}
+
+#principal{
+    background-color: #7424ca;
+    padding: 20px;
+}
+
+#principal article{
+    display: inline-block;
+    width: 31%;
+    height: 200px;
+    background-color: #c177d5;
+    margin-right: 3.5%;
+}
+
+#principal article:last-child{
+    margin-right: 0;
+}
+
+#secundario article{
+    display: inline-block;
+    height: 260px;
+}
+
+#izq{
+    width: 73%;
+    background-color: #8b266a;
+    margin-right: 2%;
+}
+
+#der{
+    width: 25%;
+    background-color: #8b266a;
+}
+
+footer{
+    height: 60px;
+    background-color: #eb75e3;
+}
